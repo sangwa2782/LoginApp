@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "537344944434",
+    "project_id": "loginapp-504a2",
+    "storage_bucket": "loginapp-504a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537344944434:android:d5fcde30955e11c95a4f2b",
+        "android_client_info": {
+          "package_name": "com.ajayam.loginapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfcz7CnUxx4yyUQcXbGilQs0IXxLCNTbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,5 +1,6 @@
 package com.ajayam.loginapp.ui
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.ajayam.loginapp.R
@@ -13,7 +14,9 @@ class Login : AppCompatActivity() {
         loginBinding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(loginBinding.root)
 
-
+        loginBinding.tvCreateAccount.setOnClickListener{
+            startActivity(Intent(this, Signup::class.java))
+        }
 
 
     }

@@ -13,7 +13,7 @@ class Welcom : AppCompatActivity() {
         setContentView(R.layout.activity_welcom)
 
         Handler(Looper.getMainLooper()).postDelayed({
-            startActivity(Intent(this, Signup::class.java))
+            startActivity(Intent(this, Login::class.java))
             finish()
         }, 3000)
     }

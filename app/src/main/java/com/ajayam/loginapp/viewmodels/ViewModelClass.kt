@@ -25,9 +25,9 @@ class ViewModelClass(application: Application, private val dataRepository: DataR
 
     // For Login User
     fun loginUser(user:String, pass:String) {
-        viewModelScope.launch(Dispatchers.IO + exceptionHandler) {
-            val response = dataRepository.authentication(user, pass)
-            withContext(Dispatchers.Main) {
+//        viewModelScope.launch(Dispatchers.IO + exceptionHandler) {
+//            val response = dataRepository.authentication(user, pass)
+//            withContext(Dispatchers.Main) {
 //                if (response.isSuccessful) {
 //                    Log.e("onSuccess1", Gson().toJson(response.body()))
 //                    userResponse.postValue(response.body())
@@ -36,8 +36,8 @@ class ViewModelClass(application: Application, private val dataRepository: DataR
 //                    Log.e("Error", Gson().toJson(response.message()))
 //                    onError("Error : ${response.message()} ")
 //                }
-            }
-        }
+//            }
+//        }
     }
 
 

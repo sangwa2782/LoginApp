@@ -6,34 +6,86 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".ui.MainActivity">
+    android:background="@drawable/housee"
+    tools:context=".ui.Signup">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/round_bg"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="80dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-150dp"
+        android:orientation="vertical"
+        android:background="@drawable/round_box"
+        android:gravity="center_horizontal"
+        >
 
     <EditText
-        android:id="@+id/userName"
+        android:id="@+id/etUser"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:ems="12"
+        android:backgroundTint="#97FFFFFF"
         android:hint="User Name"
-        android:textSize="20sp"
-        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="#C94E4C4C"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.05"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="70dp"
+        android:shadowDy="5"
+        android:shadowColor="@color/black"
+        android:elevation="10dp"
+        android:background="@drawable/edit_text_shape"
         />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/etPassword"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:ems="12"
+        android:backgroundTint="#97FFFFFF"
+        android:textColor="@color/black"
+        android:textColorHint="#C94E4C4C"
         android:hint="User Password"
-        android:textSize="20sp"
-        android:padding="10dp"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.05"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="30dp"
+        android:shadowDy="4"
+        android:shadowColor="@color/black"
+        android:elevation="10dp"
+        android:background="@drawable/edit_text_shape"
         />
 
     <Button
-        android:id="@+id/submitLogin"
+        android:id="@+id/btnSubmit"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="Continue"
-        android:layout_marginTop="20dp"
-        android:paddingHorizontal="20dp"
+        android:textSize="16sp"
+        android:ems="12"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:shadowDy="4"
+        android:shadowColor="@color/black"
+        android:paddingHorizontal="50dp"
+        android:elevation="10dp"
+        android:backgroundTint="#6AFAA69A"
         />
+
+    </LinearLayout>
 
 
 </LinearLayout>

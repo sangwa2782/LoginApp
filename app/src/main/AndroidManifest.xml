@@ -13,13 +13,25 @@
         android:theme="@style/Theme.LoginApp"
         tools:targetApi="31">
         <activity
-            android:name=".ui.MainActivity"
-            android:exported="true">
+            android:name=".ui.Welcom"
+            android:exported="true" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.DashBoard"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Login"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Signup"
+            android:exported="false">
+
         </activity>
     </application>
 

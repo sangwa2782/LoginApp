@@ -15,6 +15,7 @@
         android:background="@drawable/round_bg"
         android:src="@drawable/logo"
         android:layout_marginBottom="80dp"
+
         />
 
     <LinearLayout
